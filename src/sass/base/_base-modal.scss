@@ -1,0 +1,17 @@
+.contacts-modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 101;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .contacts-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
